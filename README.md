@@ -4,12 +4,15 @@ Repositorio inicial de la aventura gráfica **Ecos del Brote**, preparado para o
 
 ## Contenido
 
-- `assets/img/personajes/`: hoja de conceptos visuales de los personajes.
-- `assets/img/fondos/`: hoja de conceptos de los escenarios y fondos.
-- `docs/`: consigna de preproducción del Sprint 2.
-- `index.html`: página inicial mínima para comenzar a construir la WebApp.
+- `index.html`: página inicial de la WebApp.
+- `personajes.ai`: archivo de diseño y conceptos visuales de los personajes.
+- `fondos.ai`: archivo de diseño y conceptos visuales de los escenarios y fondos.
+- `.gitignore`: archivo para indicar qué archivos no deben incluirse en el repositorio.
+- `README.md`: documentación e información general del proyecto.
 
-## Personajes identificados en la hoja de conceptos
+## Personajes
+
+El proyecto contempla los siguientes personajes:
 
 - **Mateo**: protagonista, de 17 años.
 - **Lucía**
@@ -18,34 +21,44 @@ Repositorio inicial de la aventura gráfica **Ecos del Brote**, preparado para o
 - **Tomás**
 - **Infectados**: referencias visuales individuales y de horda.
 
-## Escenarios incluidos en la hoja de conceptos
+Los diseños y conceptos visuales se encuentran en el archivo `personajes.ai`.
 
-La imagen de escenarios reúne referencias del aula principal, pasillos, patio interno, ala de carga, comedor, depósito, entrada principal, laboratorio/área técnica, salidas y refugio frente al colegio.
+## Escenarios
 
-## Estructura del proyecto
+Los escenarios contemplados para la aventura gráfica incluyen:
+
+- Aula principal.
+- Pasillos.
+- Patio interno.
+- Ala de carga.
+- Comedor.
+- Depósito.
+- Entrada principal.
+- Laboratorio y área técnica.
+- Salidas.
+- Refugio frente al colegio.
+
+Las referencias visuales de los escenarios se encuentran en el archivo `fondos.ai`.
+
+## Estructura actual del proyecto
 
 ```text
 ecos-del-brote/
-├── assets/
-│   └── img/
-│       ├── personajes/
-│       │   └── hoja-conceptos-personajes.png
-│       └── fondos/
-│           └── hoja-conceptos-escenarios.png
-├── docs/
-│   └── consignas-sprint-2.pdf
 ├── .gitignore
+├── README.md
+├── fondos.ai
 ├── index.html
-└── README.md
+└── personajes.ai
 ```
 
 ## Cómo empezar
 
-1. Subí esta carpeta a un repositorio nuevo de GitHub llamado `ecos-del-brote`.
-2. Conservá la estructura de carpetas para mantener ordenados los recursos.
-3. Cuando se separen las hojas de conceptos en imágenes individuales, guardá cada personaje en `assets/img/personajes/` y cada escenario en `assets/img/fondos/`.
-4. Desarrollá las pantallas, decisiones, variables y finales a partir del documento de preproducción del equipo.
+1. Abrí el repositorio en GitHub.
+2. Utilizá `index.html` como punto de partida para desarrollar la WebApp.
+3. Consultá `personajes.ai` para trabajar con los diseños de los personajes.
+4. Consultá `fondos.ai` para trabajar con los escenarios y fondos.
+5. A medida que avance el desarrollo, podés organizar los recursos en carpetas específicas, como `assets/img/personajes/` y `assets/img/fondos/`.
 
-## Estado
+## Estado del proyecto
 
-Estructura inicial y recursos de referencia cargados. La lógica narrativa completa y la WebApp todavía deben desarrollarse.
+El repositorio contiene la página inicial, los archivos de diseño de personajes y escenarios, y la documentación básica del proyecto. La lógica narrativa completa, las decisiones, las variables y los finales de la aventura gráfica todavía deben desarrollarse.
